@@ -420,7 +420,7 @@ void Device_CFG(void)
 	LL_ADC_Enable(ADC1);
 	LL_mDelay(1);
 	LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_1);
-	//Amp_Calibration();
+	Amp_Calibration();
 
 	Time_seconds = 0;
 	FT_flag = HT_flag = 0;
